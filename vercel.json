@@ -1,0 +1,28 @@
+{
+  "functions": {
+    "server.js": {
+      "includeFiles": "{assets,fonts,gltf,hdri,image,sounds,texture,vendors,index.html,index.css}/**"
+    }
+  },
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "Access-Control-Allow-Origin", "value": "*" },
+        { "key": "Access-Control-Allow-Methods", "value": "GET, HEAD, OPTIONS" }
+      ]
+    },
+    {
+      "source": "/gltf/(.*)",
+      "headers": [
+        { "key": "Content-Type", "value": "model/gltf-binary" }
+      ]
+    },
+    {
+      "source": "/sounds/(.*)",
+      "headers": [
+        { "key": "Accept-Ranges", "value": "bytes" }
+      ]
+    }
+  ]
+}

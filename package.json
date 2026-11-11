@@ -1,0 +1,20 @@
+{
+  "name": "praneethkarthikeyaportfolio",
+  "version": "1.0.0",
+  "description": "Interactive 3D WebGL Portfolio for A. Praneeth Karthikeya Sharma",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "threejs",
+    "webgl",
+    "portfolio",
+    "ai-automation",
+    "iot",
+    "interactive"
+  ],
+  "author": "A. Praneeth Karthikeya Sharma",
+  "license": "ISC"
+}

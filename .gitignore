@@ -1,0 +1,57 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+ENV/
+.pytest_cache/
+
+# Builds & caches
+dist/
+dist-ssr/
+build/
+out/
+.next/
+.vite/
+.turbo/
+.expo/
+*.tsbuildinfo
+
+# Deployment & local state
+.vercel/
+.netlify/
+*.log
+*.pid
+uploads/
+captures/
+data/ak.log*
+data/tts/
+data/*.sqlite
+
+# Mobile / Android
+.gradle/
+android/.gradle/
+android/app/build/
+local.properties
+*.keystore
+
+# Secrets & environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# OS & Editors
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

@@ -1,0 +1,1 @@
+import{bk as c,bm as m}from"./index-DWN9ksCY.js";const p=(r,o,a)=>{if(!r||!o)return[];const t=o,n=a;if(!n)return[];t.name=n.name;const e=new c(t),i=e.clipAction(n);return i.loop=m,i.clampWhenFinished=!0,[i,e]};export{p as u};
